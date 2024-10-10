@@ -29,5 +29,7 @@ export async function GET() {
     });
   }
 
-  return NextResponse.redirect("http://localhost:3000/dashboard/sites/new");
+  return NextResponse.redirect(
+    "https://saa-s-blog-ayan471s-projects.vercel.app/dashboard/sites/new"
+  );
 }
